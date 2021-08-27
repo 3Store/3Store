@@ -2,6 +2,10 @@ body {
 background-color: #303030;
 }
 @font-face {
+font-family: SF;
+src: url(https://ipainstallerios.ga/SF.otf);
+}
+@font-face {
 font-family: Framework7 Icons;
 src: url(https://appinstallerios.com/fonts/Framework7Icons-Regular.woff2);
 }
