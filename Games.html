@@ -1,1 +1,53 @@
-Games
+<!DOCTYPE html>
+<html>
+<head>
+<title>3Store Games</title>
+<link rel="manifest" href="manifest.json">
+<meta name="description" content="The Best 3rd Party App Store">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="favicon.ico"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover minimal-ui standalone">
+</head>
+<center>
+<div class="name">
+<a href="Sections" class="tab">chevron_left</a>
+<h1>Games</h1>
+</div>
+<center>	
+<div class="test">
+<img src="https://appinstallerios.com/img/161C3F9E-6784-4BB6-A509-F60ADCFB04CB.png">
+</div>
+<center>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for apps">
+<ul id="myUL">
+</ul>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, div, h1, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    h1 = li[i].getElementsByTagName("h1")[0];
+    txtValue = h1.textContent || h1.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+<div class="nav">	
+<a href="https://3store.ga" class="tab">house_fill</a>
+<a href="Sections" class="tab">rectangle_stack_fill</a>
+<a href="Search" class="tab">search_fill</a>
+</div>
+</html>
