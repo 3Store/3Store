@@ -152,6 +152,15 @@ margin-bottom: 0px;
 margin-left: 60px;
 font-family: SF;
 }
+.apps h2 {
+font-size: 15px;
+color: #000;
+text-align: justify;
+margin-top: 2px;
+margin-bottom: 2px;
+margin-left: 60px;
+font-family: SF;
+}
 #myInput {	
 background-position: 10px 12px;
 background-repeat: no-repeat;
