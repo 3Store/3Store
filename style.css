@@ -131,3 +131,22 @@ margin-bottom: 0px;
 margin-left: 60px;
 font-family: SF;
 }
+#myInput {	
+background-position: 10px 12px;
+background-repeat: no-repeat;
+width: 70%;
+font-size: 16px;
+padding: 12px 20px 12px 40px;
+margin-bottom: 12px;
+margin:10px;
+border-radius:20px;
+background-color: #1C1C1E;
+color: #fff;
+border: 5px solid #1C1C1E;
+}
+#myUL {
+/* Remove default list styling */
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
